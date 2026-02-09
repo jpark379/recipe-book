@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Imperial+Script&display=swap');
+
+.header-container {
+    min-height: calc(var(--spacing) * 9);
+    display: flex;
+    padding: calc(var(--spacing) * 8);
+    flex-wrap: nowrap;
+    z-index: 0;
+    align-items: center;
+    width: 100%;
+}
+
+.header-title {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--text-7xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+    color: var(--color-green-950);
+    min-width: auto;
+}
+
+.header-subtitle {
+    padding-top: calc(var(--spacing) * 2);
+    text-align: center;
+    font-family: "Cormorant SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
+    color: var(--color-gray-400);
+    white-space: nowrap;
+
+}
+
+.leaf-icon {
+    max-width: calc(10vh);
+    max-height: calc(10vh);
+}
+
+.title-icon-wrapper {
+    display: flex;
+    margin: auto;
+}

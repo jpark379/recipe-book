@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/_styles/menu.module.css"],"sourcesContent":[".menu {\n    padding: calc(var(--spacing) * 4);\n    align-content: center;\n    display: flex;\n    flex-direction: column;\n    position: relative;\n}\n\n.menu-button {\n    cursor: pointer;\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAQA"}}]
+}

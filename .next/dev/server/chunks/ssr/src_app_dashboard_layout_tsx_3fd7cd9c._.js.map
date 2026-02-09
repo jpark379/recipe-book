@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/judypark/Desktop/Recipe%20Book%20Project/recipe-book/src/app/dashboard/layout.tsx"],"sourcesContent":["export default function DashboardLayout({\n    children,\n}: {\n    children: React.ReactNode\n}) {\n    return <section>{children}<h2>Featured products</h2></section>\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS,gBAAgB,EACpC,QAAQ,EAGX;IACG,qBAAO,8OAAC;;YAAS;0BAAS,8OAAC;0BAAG;;;;;;;;;;;;AAClC"}}]
+}

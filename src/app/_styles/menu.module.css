@@ -1,0 +1,11 @@
+.menu {
+    padding: calc(var(--spacing) * 4);
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu-button {
+    cursor: pointer;
+}
