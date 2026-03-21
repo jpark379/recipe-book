@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/judypark/Desktop/Recipe%20Book%20Project/recipe-book/src/app/dashboard/page.tsx"],"sourcesContent":["function Header({ title }) {\n  return <h1>{title ? title : 'Change title'}</h1>\n}\n\nexport default function HomePage() {\n  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];\n\n  return (\n    <div>\n      <Header title=\"dashboard\" />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAA,SAAS,OAAO,EAAE,KAAK,EAAE;IACvB,qBAAO,8OAAC;kBAAI,QAAQ,QAAQ;;;;;;AAC9B;AAEe,SAAS;IACtB,MAAM,QAAQ;QAAC;QAAgB;QAAgB;KAAoB;IAEnE,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAO,OAAM;;;;;;;;;;;AAGpB"}}]
-}

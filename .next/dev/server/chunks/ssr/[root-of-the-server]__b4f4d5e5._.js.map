@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/judypark/Desktop/Recipe%20Book%20Project/recipe-book/src/app/page.tsx"],"sourcesContent":["// function Header({ title }) {\n//   return <h1>{title ? title : 'Change title'}</h1>\n// }\n\nexport default function HomePage() {\n  const names = [\"Ada Lovelace\", \"Grace Hopper\", \"Margaret Hamilton\"];\n\n  return (\n    <div>\n      {/* <Header title=\"Judy's Recipe Book\" /> */}\n      <h1 className=\"font-bold\">Welcome to Next.js!</h1>\n      <ul>\n        {names.map((name) => (\n          <li key={name}>{name}</li>\n        ))}\n      </ul>\n    </div>\n  );\n}\n"],"names":[],"mappings":"AAAA,+BAA+B;AAC/B,qDAAqD;AACrD,IAAI;;;;;;;AAEW,SAAS;IACtB,MAAM,QAAQ;QAAC;QAAgB;QAAgB;KAAoB;IAEnE,qBACE,8OAAC;;0BAEC,8OAAC;gBAAG,WAAU;0BAAY;;;;;;0BAC1B,8OAAC;0BACE,MAAM,GAAG,CAAC,CAAC,qBACV,8OAAC;kCAAe;uBAAP;;;;;;;;;;;;;;;;AAKnB"}}]
-}
