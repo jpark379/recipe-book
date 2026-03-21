@@ -1,0 +1,49 @@
+/* [project]/src/app/_styles/layout.module.css [app-client] (css) */
+.layout-module__QkbnkW__header-container {
+  min-height: calc(var(--spacing) * 9);
+  padding: calc(var(--spacing) * 8);
+  z-index: 0;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.layout-module__QkbnkW__header-title {
+  text-align: center;
+  font-family: Imperial Script, cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-7xl);
+  line-height: var(--tw-leading, var(--text-5xl--line-height));
+  color: var(--color-green-950);
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  min-width: auto;
+  display: flex;
+}
+
+.layout-module__QkbnkW__header-subtitle {
+  padding-top: calc(var(--spacing) * 2);
+  text-align: center;
+  font-family: Cormorant SC, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--text-2xl);
+  line-height: var(--tw-leading, var(--text-xl--line-height));
+  color: var(--color-gray-400);
+  white-space: nowrap;
+}
+
+.layout-module__QkbnkW__leaf-icon {
+  max-width: 10vh;
+  max-height: 10vh;
+}
+
+.layout-module__QkbnkW__title-icon-wrapper {
+  margin: auto;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_app__styles_layout_module_css_0w3-wzy._.single.css.map*/

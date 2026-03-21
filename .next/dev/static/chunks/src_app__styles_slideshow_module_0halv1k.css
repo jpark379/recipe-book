@@ -1,0 +1,14 @@
+/* [project]/src/app/_styles/slideshow.module.css [app-client] (css) */
+.slideshow-module__rgES4W__display-button {
+  background-color: var(--color-gray-400);
+  width: 2px;
+  height: 100px;
+}
+
+.slideshow-module__rgES4W__slideshow-container {
+  padding: calc(var(--spacing) * 20);
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_app__styles_slideshow_module_0halv1k.css.map*/

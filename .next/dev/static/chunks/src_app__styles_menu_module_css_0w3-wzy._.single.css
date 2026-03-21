@@ -1,0 +1,14 @@
+/* [project]/src/app/_styles/menu.module.css [app-client] (css) */
+.menu-module__BGCZnW__menu {
+  padding: calc(var(--spacing) * 4);
+  flex-direction: column;
+  align-content: center;
+  display: flex;
+  position: relative;
+}
+
+.menu-module__BGCZnW__menu-button {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=src_app__styles_menu_module_css_0w3-wzy._.single.css.map*/

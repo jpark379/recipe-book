@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/judypark/Desktop/Recipe%20Book%20Project/recipe-book/src/app/_styles/slideshow.module.css"],"sourcesContent":[".display-button {\n    background-color: var(--color-gray-400);;\n    width: 2px;\n    height: 100px;\n}\n\n.slideshow-container {\n    padding: calc(var(--spacing) * 20);\n    display: flex;\n    align-items: center;\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA"}}]
+}
