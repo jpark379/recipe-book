@@ -15,13 +15,13 @@ export default function MenuComponent({ menuOptions, isOpen }) {
   ));
 
   return (
-    <div
+    <menu
       className={clsx({
         [styles.open]: isOpen,
         [styles.closed]: !isOpen,
       })}
     >
-      <div className={styles["menu-list"]}>{optionsList} </div>
-    </div>
+      <li className={styles["menu-list"]}>{optionsList} </li>
+    </menu>
   );
 }
